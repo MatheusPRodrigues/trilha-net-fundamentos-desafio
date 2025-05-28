@@ -34,5 +34,12 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 4. Encerrar
 
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+## Implementações
+Foi realizada todas as alterações solicitadas no desafio de projeto da DIO, sendo completados os métodos da classe Estacionamento para atender da melhor forma as regras de négocio do projeto.
+
+Ademais foram feitas 2 adições e 1 alteração no projeto, sendo elas:
+- <b>Método ListarVeiculos foi reaproveitado dentro no corpo do método RemoverVeiculo:</b> Isso foi feito para quando o usuário for remover o veículo do estacionamento, as placas sejam exibidas, assim auxiliando de forma mais efitiva o fluxo do programa se dar dá forma correta.
+
+- <b>Método privado para verificar a placa:</b> implementação do método private VerificarPlaca(string placa):bool, para garantir que as placas cadastradas sigam o formato dado de exemplo na vídeo aula. Ex: ABC-1234.
+
+- <b>Alteração do dotnet utilizado no projeto:</b> como as aulas foram gravadas há algum tempo, o dotnet utilizado no projeto estava desatualizado. Portanto alterei o dotnet do projeto para versão 8.0 que é a que estou utilizando mais
